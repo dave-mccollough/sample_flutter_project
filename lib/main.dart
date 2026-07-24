@@ -18,7 +18,34 @@ class MainApp extends StatelessWidget {
           foregroundColor: Colors.white,
           backgroundColor: Colors.blueGrey,
         ),
-        body: Center(child: Image.asset('assets/images/dashatar.png')),
+        body: Column(
+          children: [
+            Container(
+              height: 100.0,
+              width: 100.0,
+              color: Colors.amber,
+              child: Image.asset('assets/images/dashatar.png'),
+            ),
+            Container(
+              height: 100.0,
+              width: 100.0,
+              color: Colors.lightGreen,
+              child: Image.asset('assets/images/dashatar.png'),
+            ),
+            Container(
+              height: 100.0,
+              width: 100.0,
+              color: Colors.orange,
+              child: Image.asset('assets/images/dashatar.png'),
+            ),
+            Container(
+              height: 100.0,
+              width: 100.0,
+              color: Colors.pink,
+              child: Image.asset('assets/images/dashatar.png'),
+            ),
+          ],
+        ),
       ),
     );
   }
