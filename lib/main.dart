@@ -18,7 +18,9 @@ class MainApp extends StatelessWidget {
           foregroundColor: Colors.white,
           backgroundColor: Colors.blueGrey,
         ),
-        body: Column(
+        body: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Container(
               height: 100.0,
